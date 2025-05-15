@@ -64,7 +64,7 @@
     } 
     
     /*Media Query para dispositivos móveis*/
-    @media (max-width:768px) {}
+    @media (max-width:768px) {
         .hamburguer{
             display: flex;
     }
@@ -101,4 +101,4 @@
     .hamburguer.active  .bar:nth-child(3){
          transform: translateY(9px) rotate (-45deg);
     }
-    
+    }
